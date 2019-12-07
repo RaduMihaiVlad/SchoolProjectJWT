@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="login_script.js"></script>
+    <script src="main_page.js"></script>
+    <link rel="stylesheet" href="main_page.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Money Retainer</title>
+</head>
+<body onload="start()">
+
+    <div class="navbar">
+            <a class="active" onclick="sum1()"> Sum1</a> 
+            <a onclick="sum2()"> Sum2</a> 
+            <a onclick="sum3()"> Sum3</a> 
+            <a onclick="total_sum()"> TotalSum</a>
+    </div>
+
+    <div class="user_options">
+            <div class="sign_out_button">
+                <button onclick="sign_out()">Sign out</button>
+            </div>
+            <div class="delete_account_button">
+                <button onclick="delete_account()">Delete account</button>
+            </div>
+    </div>
+
+    <div class="calculator">
+            <label id="update_sum_index">Update sum 1:</label>
+            <input type="number" id="sum-input" value="0"/>
+            <!-- <button id="update_value" onclick="update_sum()">Update</button> -->
+    </div>
+
+    <footer>
+        Copyright © 2019 mihaiciv
+    </footer>
+
+
+</body>
+</html>

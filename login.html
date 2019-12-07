@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="login_script.js"></script>
+    <link rel="stylesheet" href="login_style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Money Retainer</title>
+</head>
+<body>
+    <div class="Title">
+        <header>
+            <h1>Welcome to Money Retainer</h1>
+        </header>
+    </div>
+
+    <main>
+        <div class="Login">
+            <div class="UsernameLogin">
+                <label><b>Username</b></label>
+                <input type="text" id="regusr" placeholder="Enter Username" name="uname" required>
+            </div>
+            <div class="PasswordLogin">
+                <label><b>Password</b></label>
+                <input type="password" id="regpsw" placeholder="Enter Password" name="psw" required>
+            </div>
+        </div>
+    </main>
+
+    <div class="ActionButtons">
+        <div class="LoginSubmit">
+            <button type="submit" onclick="login();">Login</button>
+        </div>
+        <div class="RegisterSubmit">
+            <button type="submit" onclick="location.href='register.html'">Register</button>
+        </div>
+    </div>
+
+    <footer>
+        Copyright © 2019 mihaiciv
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+}
+
+.Title {
+    text-align: center;
+    padding: 5%;
+}
+
+.Login {
+    text-align: center;
+    padding: 1%;
+
+}
+
+.UsernameLogin, .PasswordLogin {
+    padding: 1%;
+    font-size: 20px;
+}
+
+.ActionButtons {
+    text-align: center;
+}
+
+.LoginSubmit button, .RegisterSubmit button {
+    background-color: darkblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 25px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;    
+}
